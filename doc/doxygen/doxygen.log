@@ -1,0 +1,846 @@
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/utils.h:99: warning: File ended in the middle of a comment block! Perhaps a missing \endcode?
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vsimage.h:266: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:304: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:305: warning: Found ';' while parsing initializer list! (doxygen could be confused by a macro call without semicolon)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_BoxPruning.cpp:12: warning: the name `IceBoxPruning.cpp' supplied as the second argument in the \file statement is not an input file
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_BoxPruning.h:12: warning: the name `IceBoxPruning.h' supplied as the second argument in the \file statement is not an input file
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_BoxPruning.h:13: warning: the name `IceBoxPruning.h' supplied as the second argument in the \file statement is not an input file
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:24: warning: the name `posh.c' supplied as the second argument in the \file statement is not an input file
+/home/enon/build/Vega-Strike-Engine-Source/engine/tools/common.cpp:23: warning: the name `common.cpp' supplied as the second argument in the \file statement matches the following input files:
+   /home/enon/build/Vega-Strike-Engine-Source/engine/src/common/common.cpp
+   /home/enon/build/Vega-Strike-Engine-Source/engine/tools/common.cpp
+Please use a more specific name by including a (larger) part of the path!
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/unit_from_to_python.h:34: warning: Internal inconsistency: scope for class default_result_converter::apply< Unit * > not found!
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:683: warning: documentation for unknown define POSH_DLL found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:710: warning: documentation for unknown define POSH_BUILDING_LIB found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:841: warning: documentation for unknown define POSH_LITTLE_ENDIAN found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:907: warning: documentation for unknown define POSH_S64 found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:914: warning: documentation for unknown define POSH_U64 found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:922: warning: documentation for unknown define POSH_64BIT_INTEGER found.
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/Source.h:112: warning: no uniquely matching class member found for 
+  void Audio::Source::@2::reset()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/Source.h:120: warning: no matching class member found for 
+  void Audio::Source::@2::setAll()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.cpp:47: warning: no uniquely matching class member found for 
+  PythonAI< SuperClass >::PythonAI(PyObject *self_, float reaction_time, float aggressivity)
+Possible candidates:
+  PythonAI< SuperClass >::PythonAI(const PythonAI &a)' at line 36 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.h
+  PythonAI< SuperClass >::PythonAI(PyObject *self, float reaction_time, float agressivity)' at line 44 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.h
+  PythonAI< SuperClass >::PythonAI(PyObject *self_)' at line 212 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_class.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.cpp:58: warning: no uniquely matching class member found for 
+  void PythonAI< SuperClass >::default_Execute(FireAt &self_)
+Possible candidates:
+  static void PythonAI< SuperClass >::default_Execute(FireAt &pay)' at line 46 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.h
+  static void PythonAI< SuperClass >::default_Execute(SuperClass &self_)' at line 228 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_class.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.cpp:68: warning: no uniquely matching class member found for 
+  PythonAI * PythonAI< SuperClass >::Factory(const std::string &filename)
+Possible candidates:
+  static PythonAI * PythonAI< SuperClass >::Factory(const std::string &file)' at line 49 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/pythonai.h
+  static PythonClass< SuperClass > * PythonAI< SuperClass >::Factory(const std::string &file)' at line 243 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_class.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/basecomputer.cpp:298: warning: no uniquely matching class member found for 
+  template <>
+  const BaseComputer::WctlTableEntry WctlBase< BaseComputer >::WctlCommandTable()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/bolt_server.cpp:38: warning: no matching class member found for 
+  GFXVertexList * bolt_draw::boltmesh()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/bolt_server.cpp:40: warning: documented symbol `bolt_draw::~bolt_draw' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/bolt_server.cpp:54: warning: documented symbol `bolt_draw::bolt_draw' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/bolt_server.cpp:75: warning: no uniquely matching class member found for 
+  void Bolt::Draw()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:40: warning: no uniquely matching class member found for 
+  AABB & AABB::Add(const AABB &aabb)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:65: warning: documented symbol `float AABB::MakeCube' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:82: warning: documented symbol `void AABB::MakeSphere' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:95: warning: no uniquely matching class member found for 
+  bool AABB::IsInside(const AABB &box) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:124: warning: no uniquely matching class member found for 
+  bool AABB::ComputePlanes(Plane *planes) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:168: warning: no uniquely matching class member found for 
+  bool AABB::ComputePoints(Point *pts) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:209: warning: documented symbol `const Point * AABB::GetVertexNormals' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:230: warning: no uniquely matching class member found for 
+  const uint32_t * AABB::GetEdges() const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:246: warning: documented symbol `const Point * AABB::GetEdgeNormals' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:376: warning: documented symbol `const int8_t * AABB::ComputeOutline' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceAABB.cpp:407: warning: documented symbol `float AABB::ComputeBoxArea' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_AABBTree.cpp:80: warning: documented symbol `AABBTreeNode::AABBTreeNode' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_AABBTree.cpp:97: warning: documented symbol `AABBTreeNode::~AABBTreeNode' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_HybridModel.cpp:155: warning: no uniquely matching class member found for 
+  bool HybridModel::Build(const OPCODECREATE &create)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_HybridModel.cpp:308: warning: no uniquely matching class member found for 
+  size_t HybridModel::GetUsedBytes() const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_HybridModel.cpp:351: warning: no uniquely matching class member found for 
+  bool HybridModel::Refit()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_Model.cpp:143: warning: no uniquely matching class member found for 
+  bool Model::Build(const OPCODECREATE &create)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_Model.cpp:231: warning: no uniquely matching class member found for 
+  size_t Model::GetUsedBytes() const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OBBCollider.cpp:86: warning: no uniquely matching class member found for 
+  const char * OBBCollider::ValidateSettings()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:211: warning: documented symbol `AABBCollisionTree::AABBCollisionTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:219: warning: documented symbol `AABBCollisionTree::~AABBCollisionTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:230: warning: no uniquely matching class member found for 
+  bool AABBCollisionTree::Build(AABBTree *tree)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:266: warning: no uniquely matching class member found for 
+  bool AABBCollisionTree::Refit(const MeshInterface *)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:279: warning: no uniquely matching class member found for 
+  bool AABBCollisionTree::Walk(GenericWalkingCallback callback, void *user_data) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:306: warning: documented symbol `AABBNoLeafTree::AABBNoLeafTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:314: warning: documented symbol `AABBNoLeafTree::~AABBNoLeafTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:325: warning: no uniquely matching class member found for 
+  bool AABBNoLeafTree::Build(AABBTree *tree)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:382: warning: no uniquely matching class member found for 
+  bool AABBNoLeafTree::Refit(const MeshInterface *mesh_interface)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:437: warning: no uniquely matching class member found for 
+  bool AABBNoLeafTree::Walk(GenericWalkingCallback callback, void *user_data) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:572: warning: documented symbol `AABBQuantizedTree::AABBQuantizedTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:580: warning: documented symbol `AABBQuantizedTree::~AABBQuantizedTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:591: warning: no uniquely matching class member found for 
+  bool AABBQuantizedTree::Build(AABBTree *tree)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:645: warning: no uniquely matching class member found for 
+  bool AABBQuantizedTree::Refit(const MeshInterface *)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:658: warning: no uniquely matching class member found for 
+  bool AABBQuantizedTree::Walk(GenericWalkingCallback callback, void *user_data) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:686: warning: documented symbol `AABBQuantizedNoLeafTree::AABBQuantizedNoLeafTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:694: warning: documented symbol `AABBQuantizedNoLeafTree::~AABBQuantizedNoLeafTree' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:705: warning: no uniquely matching class member found for 
+  bool AABBQuantizedNoLeafTree::Build(AABBTree *tree)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:761: warning: no uniquely matching class member found for 
+  bool AABBQuantizedNoLeafTree::Refit(const MeshInterface *)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_OptimizedTree.cpp:774: warning: no uniquely matching class member found for 
+  bool AABBQuantizedNoLeafTree::Walk(GenericWalkingCallback callback, void *user_data) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.cpp:85: warning: no uniquely matching class member found for 
+  const char * PlanesCollider::ValidateSettings()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_RayCollider.cpp:243: warning: no uniquely matching class member found for 
+  const char * RayCollider::ValidateSettings()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:90: warning: no uniquely matching class member found for 
+  bool AABBTreeOfAABBsBuilder::ComputeGlobalBox(const uint32_t *primitives, uint32_t nb_prims, AABB &global_box) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:115: warning: no uniquely matching class member found for 
+  float AABBTreeOfAABBsBuilder::GetSplittingValue(uint32_t index, uint32_t axis) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:130: warning: no uniquely matching class member found for 
+  bool AABBTreeOfTrianglesBuilder::ComputeGlobalBox(const uint32_t *primitives, uint32_t nb_prims, AABB &global_box) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:163: warning: no uniquely matching class member found for 
+  float AABBTreeOfTrianglesBuilder::GetSplittingValue(uint32_t index, uint32_t axis) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:194: warning: no uniquely matching class member found for 
+  float AABBTreeOfTrianglesBuilder::GetSplittingValue(const uint32_t *primitives, uint32_t nb_prims, const AABB &global_box, uint32_t axis) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:225: warning: no uniquely matching class member found for 
+  bool AABBTreeOfVerticesBuilder::ComputeGlobalBox(const uint32_t *primitives, uint32_t nb_prims, AABB &global_box) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:252: warning: no uniquely matching class member found for 
+  float AABBTreeOfVerticesBuilder::GetSplittingValue(uint32_t index, uint32_t axis) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.cpp:267: warning: no uniquely matching class member found for 
+  float AABBTreeOfVerticesBuilder::GetSplittingValue(const uint32_t *primitives, uint32_t nb_prims, const AABB &global_box, uint32_t axis) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeCollider.cpp:76: warning: no uniquely matching class member found for 
+  const char * AABBTreeCollider::ValidateSettings()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_VolumeCollider.cpp:78: warning: no uniquely matching class member found for 
+  const char * VolumeCollider::ValidateSettings()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/engineVersion.cpp:36: warning: no matching class member found for 
+  EngineVersionData::EngineVersionData::EngineVersionData()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/director_generic.cpp:405: warning: no uniquely matching class member found for 
+  bool Mission::runScript(missionNode *module_node, const string &scriptname, unsigned int classid)
+Possible candidates:
+  bool Mission::runScript(std::string modulename, const std::string &scriptname, unsigned int classid=0)' at line 504 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  bool Mission::runScript(missionNode *, const std::string &scriptname, unsigned int classid=0)' at line 505 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/director_generic.cpp:424: warning: no uniquely matching class member found for 
+  bool Mission::runScript(string modulename, const string &scriptname, unsigned int classid)
+Possible candidates:
+  bool Mission::runScript(std::string modulename, const std::string &scriptname, unsigned int classid=0)' at line 504 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  bool Mission::runScript(missionNode *, const std::string &scriptname, unsigned int classid=0)' at line 505 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.cpp:62: warning: no uniquely matching class member found for 
+  Mission::Mission(const char *filename, const std::string &script, bool loadscripts)
+Possible candidates:
+  Mission::Mission(const char *configfile, bool loadscripts=true)' at line 459 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  Mission::Mission(const char *filename, const std::string &pythonscript, bool loadscripts=true)' at line 460 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.cpp:66: warning: no uniquely matching class member found for 
+  Mission::Mission(const char *filename, bool loadscripts)
+Possible candidates:
+  Mission::Mission(const char *configfile, bool loadscripts=true)' at line 459 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  Mission::Mission(const char *filename, const std::string &pythonscript, bool loadscripts=true)' at line 460 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/script_callbacks.cpp:85: warning: no uniquely matching class member found for 
+  varInst * Mission::doCall(missionNode *node, int mode, string module, string method)
+Possible candidates:
+  varInst * Mission::doCall(missionNode *node, int mode)' at line 629 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  varInst * Mission::doCall(missionNode *node, int mode, std::string module, std::string method)' at line 749 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/script_util.cpp:131: warning: no uniquely matching class member found for 
+  void Mission::debug(int level, missionNode *node, int mode, string message)
+Possible candidates:
+  void Mission::debug(missionNode *node, int mode, std::string message)' at line 666 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  void Mission::debug(int level, missionNode *node, int mode, std::string message)' at line 667 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/script_util.cpp:139: warning: no uniquely matching class member found for 
+  void Mission::debug(missionNode *node, int mode, string message)
+Possible candidates:
+  void Mission::debug(missionNode *node, int mode, std::string message)' at line 666 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  void Mission::debug(int level, missionNode *node, int mode, std::string message)' at line 667 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/script_variables.cpp:159: warning: no uniquely matching class member found for 
+  varInst * Mission::lookupModuleVariable(string mname, missionNode *asknode)
+Possible candidates:
+  varInst * Mission::lookupModuleVariable(std::string mname, missionNode *asknode)' at line 615 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  varInst * Mission::lookupModuleVariable(missionNode *asknode)' at line 616 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/script_variables.cpp:184: warning: no uniquely matching class member found for 
+  varInst * Mission::lookupClassVariable(string modulename, string varname, unsigned int classid)
+Possible candidates:
+  varInst * Mission::lookupClassVariable(std::string modulename, std::string varname, unsigned int classid)' at line 517 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+  varInst * Mission::lookupClassVariable(missionNode *asknode)' at line 617 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/script/mission.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:52: warning: no matching file member found for 
+Unit * UnitFactory::createUnit(const char *filename, bool SubUnit, int faction, std::string customizedUnit, Flightgroup *flightgroup, int fg_subnumber, string *netxml, ObjSerial netcreate)
+Possible candidates:
+ 'Unit * createUnit()' at line 41 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/testcollection/main.cpp
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:86: warning: documented symbol `Unit * UnitFactory::createServerSideUnit' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:100: warning: no matching file member found for 
+Unit * UnitFactory::createUnit(vector< Mesh * > &meshes, bool Subunit, int faction)
+Possible candidates:
+ 'Unit * createUnit()' at line 41 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/testcollection/main.cpp
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:106: warning: documented symbol `Nebula * UnitFactory::createNebula' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:134: warning: documented symbol `Missile * UnitFactory::createMissile' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:170: warning: documented symbol `Planet * UnitFactory::createPlanet' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:174: warning: documented symbol `Planet * UnitFactory::createPlanet' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:219: warning: documented symbol `Enhancement * UnitFactory::createEnhancement' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:227: warning: documented symbol `Building * UnitFactory::createBuilding' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:237: warning: documented symbol `Building * UnitFactory::createBuilding' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:247: warning: documented symbol `Asteroid * UnitFactory::createAsteroid' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:273: warning: documented symbol `Terrain * UnitFactory::createTerrain' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:277: warning: documented symbol `ContinuousTerrain * UnitFactory::createContinuousTerrain' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_factory_server.cpp:281: warning: documented symbol `void UnitFactory::broadcastUnit' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_physics.h:98: warning: no matching class member found for 
+  void GameUnit::Thrust(const Vector &amt1, bool afterburn)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gamemenu.cpp:50: warning: no uniquely matching class member found for 
+  template <>
+  const GameMenu::WctlTableEntry WctlBase< GameMenu >::WctlCommandTable()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:49: warning: no uniquely matching class member found for 
+  Texture * Texture::Exists(string s, string a)
+Possible candidates:
+  static Texture * Texture::Exists(std::string s)' at line 243 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  static Texture * Texture::Exists(std::string s, std::string a)' at line 246 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:53: warning: no uniquely matching class member found for 
+  Texture * Texture::Exists(string s)
+Possible candidates:
+  static Texture * Texture::Exists(std::string s)' at line 243 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  static Texture * Texture::Exists(std::string s, std::string a)' at line 246 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:205: warning: no uniquely matching class member found for 
+  Texture::Texture(int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, enum ADDRESSMODE address_mode)
+Possible candidates:
+  Texture::Texture(const Texture &)' at line 66 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(const std::string &file, TextureTransform tt=defaultTransform)' at line 79 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(FILE *file, TextureTransform tt=defaultTransform)' at line 81 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE)' at line 115 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 122 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 138 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(VSFileSystem::VSFile *f, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 149 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:219: warning: no uniquely matching class member found for 
+  Texture::Texture(VSFile *f, int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, GFXBOOL force_load, int maxdimension, GFXBOOL detailtexture, GFXBOOL nocache, enum ADDRESSMODE address_mode, Texture *main)
+Possible candidates:
+  Texture::Texture(const Texture &)' at line 66 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(const std::string &file, TextureTransform tt=defaultTransform)' at line 79 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(FILE *file, TextureTransform tt=defaultTransform)' at line 81 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE)' at line 115 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 122 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 138 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(VSFileSystem::VSFile *f, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 149 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:260: warning: no uniquely matching class member found for 
+  Texture::Texture(const char *FileName, int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, GFXBOOL force_load, int maxdimension, GFXBOOL detailtexture, GFXBOOL nocache, enum ADDRESSMODE address_mode, Texture *main)
+Possible candidates:
+  Texture::Texture(const Texture &)' at line 66 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(const std::string &file, TextureTransform tt=defaultTransform)' at line 79 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(FILE *file, TextureTransform tt=defaultTransform)' at line 81 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE)' at line 115 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 122 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 138 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(VSFileSystem::VSFile *f, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 149 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:285: warning: no uniquely matching class member found for 
+  void Texture::Load(const char *FileName, int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, GFXBOOL force_load, int maxdimension, GFXBOOL detailtexture, GFXBOOL nocache, enum ADDRESSMODE address_mode, Texture *main)
+Possible candidates:
+  void Texture::Load(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 160 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  void Texture::Load(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 174 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:406: warning: no uniquely matching class member found for 
+  Texture::Texture(const char *FileNameRGB, const char *FileNameA, int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, float alpha, int zeroval, GFXBOOL force_load, int maxdimension, GFXBOOL detailtexture, GFXBOOL nocache, enum ADDRESSMODE address_mode, Texture *main)
+Possible candidates:
+  Texture::Texture(const Texture &)' at line 66 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(const std::string &file, TextureTransform tt=defaultTransform)' at line 79 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(FILE *file, TextureTransform tt=defaultTransform)' at line 81 of file /home/enon/build/Vega-Strike-Engine-Source/engine/objconv/basemaker/base_maker_texture.h
+  Texture::Texture(int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE)' at line 115 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 122 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 138 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  Texture::Texture(VSFileSystem::VSFile *f, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 149 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:437: warning: no uniquely matching class member found for 
+  void Texture::Load(const char *FileNameRGB, const char *FileNameA, int stage, enum FILTER mipmap, enum TEXTURE_TARGET target, enum TEXTURE_IMAGE_TARGET imagetarget, float alpha, int zeroval, GFXBOOL force_load, int maxdimension, GFXBOOL detailtexture, GFXBOOL nocache, enum ADDRESSMODE address_mode, Texture *main)
+Possible candidates:
+  void Texture::Load(const char *, const char *, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, float alpha=1, int zeroval=0, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 160 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  void Texture::Load(const char *FileName, int stage=0, enum FILTER mipmap=MIPMAP, enum TEXTURE_TARGET target=TEXTURE2D, enum TEXTURE_IMAGE_TARGET imagetarget=TEXTURE_2D, GFXBOOL force=GFXFALSE, int max_dimension_size=65536, GFXBOOL detail_texture=GFXFALSE, GFXBOOL nocache=false, enum ADDRESSMODE address_mode=DEFAULT_ADDRESS_MODE, Texture *main=0)' at line 174 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:667: warning: no uniquely matching class member found for 
+  int Texture::Bind(Texture *other, int maxdimension, GFXBOOL detailtexture)
+Possible candidates:
+  int Texture::Bind(int maxdimension, GFXBOOL detailtexture)' at line 99 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  int Texture::Bind(Texture *other, int maxdimension=65536, GFXBOOL detailtexture=GFXFALSE)' at line 110 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.cpp:690: warning: no uniquely matching class member found for 
+  void Texture::MakeActive(int stag, int pass)
+Possible candidates:
+  virtual void Texture::MakeActive()' at line 258 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  virtual void Texture::MakeActive(int stage)' at line 262 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+  virtual void Texture::MakeActive(int stage, int pass)' at line 266 of file /home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/aux_texture.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/matrix.h:155: warning: no matching class member found for 
+  Matrix::Matrix(const Vector &RESTRICT v1, const Vector &RESTRICT v2, const Vector &RESTRICT v3, const QVector &RESTRICT pos)
+Possible candidates:
+  Matrix::Matrix()
+  Matrix::Matrix(float r0, float r1, float r2, float r3, float r4, float r5, float r6, float r7, float r8, QVector pos)
+  Matrix::Matrix(const Vector &v1, const Vector &v2, const Vector &v3)
+  Matrix::Matrix(const Vector &v1, const Vector &v2, const Vector &v3, const QVector &pos)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:73: warning: documented symbol `TVector::TVector' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:80: warning: documented symbol `TVector::TVector' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:87: warning: documented symbol `TVector::TVector' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:94: warning: documented symbol `TVector::TVector' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:102: warning: documented symbol `TVector::TVector' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:111: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::operator+(const TVector< S, T > &obj) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:116: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::operator-(const TVector< S, T > &obj) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:121: warning: no uniquely matching class member found for 
+  template < S, T >
+  S TVector::operator*(const TVector &b) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:131: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > & TVector::operator=(const TVector< S, T > &other)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:139: warning: no uniquely matching class member found for 
+  template < S, T >
+  const TVector< T, S > & TVector::operator=(const TVector< T, S > &a)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:147: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::operator-() const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:152: warning: no uniquely matching class member found for 
+  template < S, T >
+  bool TVector::operator==(const TVector< S, T > &b) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:157: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > & TVector::operator+=(const TVector< S, T > &obj)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:165: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > & TVector::operator-=(const TVector< S, T > &obj)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:173: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > & TVector::operator*=(const T &obj)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:186: warning: documented symbol `TVector< T, S > TVector::Cast' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:191: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Cross(const TVector< S, T > &v) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:198: warning: no uniquely matching class member found for 
+  template < S, T >
+  S TVector::Dot(const TVector &b) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:204: warning: no uniquely matching class member found for 
+  template < S, T >
+  S TVector::Magnitude() const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:219: warning: documented symbol `S TVector::MagnitudeSquared' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:224: warning: no uniquely matching class member found for 
+  template < S, T >
+  void TVector::netswap()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:231: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Normalize()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:237: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Scale(S s) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:242: warning: no uniquely matching class member found for 
+  template < S, T >
+  void TVector::Set(S x, S y, S z)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:249: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Transform(const TVector< S, T > &p, const TVector< S, T > &q, const TVector< S, T > &r)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:256: warning: no matching file member found for 
+TVector< S, T > TVector::Vabs() const
+Possible candidates:
+ 'Vector Vabs(const Vector &in)' at line 141 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/unit_collide.cpp
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:263: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Min(const TVector< S, T > &other) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:270: warning: no uniquely matching class member found for 
+  template < S, T >
+  TVector< S, T > TVector::Max(const TVector< S, T > &other) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:283: warning: no uniquely matching class member found for 
+  template < S, T >
+  void TVector::Yaw(S rad)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:302: warning: no uniquely matching class member found for 
+  template < S, T >
+  void TVector::Roll(S rad)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/tvector.cpp:320: warning: no uniquely matching class member found for 
+  template < S, T >
+  void TVector::Pitch(S rad)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vsimage.cpp:120: warning: documented symbol `unsigned char * VSImage::ReadImage' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vsimage.h:268: warning: no matching file member found for 
+VSImage::sizeof(char *filename, unsigned char *data, VSImageType type, unsigned int width, unsigned int height, bool alpha=1, char bpp=16, VSFileSystem::VSFileType ft=VSFileSystem::UnknownFile, bool flip=false)
+Possible candidates:
+ 'sizeof(DWORD)+sizeof(LONG)+sizeof(LONG)+2 *sizeof(WORD)+2 *sizeof(DWORD)+2 *sizeof(LONG)+2 *sizeof(DWORD)) VSImage' at line 80 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vsimage.cpp
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:930: warning: documented symbol `posh_i64_t' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:938: warning: documented symbol `posh_s64_t' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:946: warning: documented symbol `posh_u64_t' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:39: warning: documented symbol `ZenergyPercent std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:138: warning: documented symbol `ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:217: warning: documented symbol `ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:226: warning: documented symbol `ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:232: warning: documented symbol `ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false role std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:238: warning: documented symbol `ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false role role std::string' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:40: warning: no matching class member found for 
+  ZenergyPercent UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:139: warning: no matching class member found for 
+  ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:218: warning: no matching class member found for 
+  ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:227: warning: no matching class member found for 
+  ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:233: warning: no matching class member found for 
+  ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false role UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:239: warning: no matching class member found for 
+  ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false role role UnitWrapper::std::string()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/python_unit_wrap.h:306: warning: no matching file member found for 
+ZenergyPercent name which_target false false false Missile level destination false cloak targ unsigned OnlyCollideWithTarget aiscript false pos axis Vforce Location torque afterburn amt r v index quantdev false role role role false acootuallydock factionname UnitWrapper::voidEXPORT_UTIL1(Cargo, GetCargo, std::string, cargname)
+Possible candidates:
+ '#define voidEXPORT_UTIL1(name, atype, a)' at line 89 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/unit_exports.h
+ '#define voidEXPORT_UTIL1(name, atype, a)' at line 94 of file/home/enon/build/Vega-Strike-Engine-Source/engine/src/python/unit_wrapper_class.h
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/filter/filter_impl/filter.cpp:25: warning: no uniquely matching class member found for 
+  void filter::init_constants()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/filter/filter_impl/filter.cpp:28: warning: no matching class member found for 
+  void filter::do_it()
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/coords.cpp:41: warning: no matching class member found for 
+  ucoords::ucoords(const icoords &ic, float inv_texture_size)
+Possible candidates:
+  ucoords::ucoords(scoords const &sc)
+  ucoords::ucoords(icoords const &ic, size_t texture_size)
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:26: warning: documented symbol `mem_texture::mem_texture' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:36: warning: no matching class member found for 
+  size_t mem_texture::tex_index(side const &s, icoords const &ic) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:42: warning: no matching class member found for 
+  radians mem_texture::angle_from_center(size_t single_coord) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:53: warning: no matching class member found for 
+  radians mem_texture::texel_angle_width(size_t single_coord) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:62: warning: no matching class member found for 
+  steradians mem_texture::texel_solid_angle(icoords const &ic) const
+
+/home/enon/build/Vega-Strike-Engine-Source/engine/vs_cubemap_gen/src/texture/mem_texture_impl/mem_texture.cpp:66: warning: documented symbol `tex_fetch_t mem_texture::fetch_texel' was not declared or defined.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/json.h:194: warning: included file jobject.cpp is not found. Check your EXAMPLE_PATH
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/json.h:200: warning: included file objectarray.cpp is not found. Check your EXAMPLE_PATH
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/json.h:197: warning: included file rootarray.cpp is not found. Check your EXAMPLE_PATH
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vid_file.h:122: warning: Found unknown command `\Returns'
+warning: Include graph for 'cockpit.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'initGlobalCommandMap' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'config_xml.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'configuration' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'configuration' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/csv.cpp:354: warning: The following parameters of loadCSVTableList(const std::string &csvfiles, VSFileSystem::VSFileType fileType, bool critical) are not documented:
+  parameter 'fileType'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/csv.h:113: warning: The following parameters of loadCSVTableList(const std::string &csvfiles, VSFileSystem::VSFileType fileType, bool critical) are not documented:
+  parameter 'fileType'
+warning: Caller graph for 'g' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'gfxlib.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXBlendMode' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXDisable' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXDraw' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXEnable' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Magnitude' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXDraw' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'GFXBlendMode' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:79: warning: argument 'addr' of command @param is not found in the argument list of CopyMemory(void *dest, const void *src, size_t size)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:79: warning: argument 'addr' of command @param is not found in the argument list of CopyMemory(void *dest, const void *src, size_t size)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:86: warning: The following parameters of CopyMemory(void *dest, const void *src, size_t size) are not documented:
+  parameter 'dest'
+  parameter 'src'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:35: warning: argument 'addr' of command @param is not found in the argument list of FillMemory(void *dest, size_t size, uint8_t val)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:42: warning: The following parameters of FillMemory(void *dest, size_t size, uint8_t val) are not documented:
+  parameter 'dest'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:91: warning: argument 'addr' of command @param is not found in the argument list of MoveMemory(void *dest, const void *src, size_t size)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:91: warning: argument 'addr' of command @param is not found in the argument list of MoveMemory(void *dest, const void *src, size_t size)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:98: warning: The following parameters of MoveMemory(void *dest, const void *src, size_t size) are not documented:
+  parameter 'dest'
+  parameter 'src'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:47: warning: argument 'addr' of command @param is not found in the argument list of StoreDwords(uint32_t *dest, uint32_t nb, uint32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceMemoryMacros.h:55: warning: The following parameters of StoreDwords(uint32_t *dest, uint32_t nb, uint32_t value) are not documented:
+  parameter 'dest'
+warning: Included by graph for 'lin_time.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'main_loop.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'max' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'min' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'mission.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:802: warning: found </code> tag while expecting </b>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:805: warning: end of comment block while expecting command </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:676: warning: found </code> tag while expecting </pre>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:679: warning: end of comment block while expecting command </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:660: warning: found </code> tag while expecting </pre>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:661: warning: end of comment block while expecting command </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:802: warning: found </code> tag while expecting </b>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:805: warning: end of comment block while expecting command </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:809: warning: found </pre> tag while expecting </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:810: warning: end of comment block while expecting command </pre>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:645: warning: found </code> tag while expecting </pre>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:646: warning: end of comment block while expecting command </code>
+warning: Include graph for 'star_system.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'stdlib.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'unit_generic.cpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'unit_generic.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'universe.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'universe_util.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'vec.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'vegastrike.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'vs_globals.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'vs_logging.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'vsfilesystem.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Included by graph for 'src/xml_support.h' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1102: warning: unable to resolve reference to `POSH_NO_FLOAT' for \ref command
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1102: warning: unable to resolve reference to `POSH_NO_FLOAT' for \ref command
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1105: warning: found </code> tag while expecting </b>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1136: warning: end of comment block while expecting command </code>
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:668: warning: argument 'in' of command @param is not found in the argument list of POSH_BigFloatBits(float f)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:693: warning: argument 'in' of command @param is not found in the argument list of POSH_DoubleBits(double d, posh_byte_t dst[8])
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:693: warning: argument 'out' of command @param is not found in the argument list of POSH_DoubleBits(double d, posh_byte_t dst[8])
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:730: warning: argument 'in' of command @param is not found in the argument list of POSH_DoubleFromBits(const posh_byte_t src[8])
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:796: warning: argument 'in' of command @param is not found in the argument list of POSH_FloatFromBigBits(posh_u32_t bits)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:772: warning: argument 'in' of command @param is not found in the argument list of POSH_FloatFromLittleBits(posh_u32_t bits)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:644: warning: argument 'in' of command @param is not found in the argument list of POSH_LittleFloatBits(float f)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1165: warning: unable to resolve reference to `SixtyFourBit' for \ref command
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:240: warning: argument 'in' of command @param is not found in the argument list of POSH_SwapS16(posh_s16_t v)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:270: warning: argument 'in' of command @param is not found in the argument list of POSH_SwapS32(posh_s32_t v)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:225: warning: argument 'in' of command @param is not found in the argument list of POSH_SwapU16(posh_u16_t v)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:253: warning: argument 'in' of command @param is not found in the argument list of POSH_SwapU32(posh_u32_t v)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1188: warning: unable to resolve reference to `SixtyFourBit' for \ref command
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:568: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadS16FromBig(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:532: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadS16FromLittle(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:586: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadS32FromBig(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:550: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadS32FromLittle(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:559: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadU16FromBig(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:523: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadU16FromLittle(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:577: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadU32FromBig(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:541: warning: argument 'in' of command @param is not found in the argument list of POSH_ReadU32FromLittle(const void *src)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:411: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteS16ToBig(void *dst, posh_s16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:411: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteS16ToBig(void *dst, posh_s16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:353: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteS16ToLittle(void *dst, posh_s16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:353: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteS16ToLittle(void *dst, posh_s16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:440: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteS32ToBig(void *dst, posh_s32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:440: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteS32ToBig(void *dst, posh_s32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:382: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteS32ToLittle(void *dst, posh_s32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:382: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteS32ToLittle(void *dst, posh_s32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:395: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteU16ToBig(void *dst, posh_u16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:395: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteU16ToBig(void *dst, posh_u16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:337: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteU16ToLittle(void *dst, posh_u16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:337: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteU16ToLittle(void *dst, posh_u16_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:424: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteU32ToBig(void *dst, posh_u32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:424: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteU32ToBig(void *dst, posh_u32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:366: warning: argument 'out' of command @param is not found in the argument list of POSH_WriteU32ToLittle(void *dst, posh_u32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.cpp:366: warning: argument 'in' of command @param is not found in the argument list of POSH_WriteU32ToLittle(void *dst, posh_u32_t value)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'nb_prims' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'global_box' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'nb_prims' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'global_box' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'nb_prims' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'global_box' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:112: warning: argument 'nb_prims' of command @param is not found in the argument list of AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'primitives' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:129: warning: argument 'global_box' of command @param is not found in the argument list of AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::isUnit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Cockpit::GetParent' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'Cockpit::Update' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'FireKeyboard::Execute' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'GameCockpit::Draw' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Cockpit::GetParent' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'Cockpit::Update' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'VegaConfig::getVariable' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/damage/health.cpp:63: warning: argument 'health' of command @param is not found in the argument list of Health::DealDamageComponent(int type, float &damage, float vulnerability, InflictedDamage &inflicted_damage)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/damage/health.h:103: warning: The following parameters of Health::DealDamageComponent(int type, float &damage, float vulnerability, InflictedDamage &inflicted_damage) are not documented:
+  parameter 'type'
+  parameter 'inflicted_damage'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_HybridModel.h:69: warning: argument 'create' of command @param is not found in the argument list of HybridModel::override(BaseModel) const &
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'Mission::call_unit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_Model.h:38: warning: argument 'create' of command @param is not found in the argument list of Model::override(BaseModel) const &
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/pass.h:345: warning: The following parameters of Pass::addTextureUnit(const string &source, int target, const string &deflt, const string &paramName, Pass::TextureUnit::Kind texKind) are not documented:
+  parameter 'texKind'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/pass.h:302: warning: Found unknown command `\Note'
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceRevisitedRadix.cpp:356: warning: argument 'input' of command @param is not found in the argument list of RadixSort::Sort(const float *input2, uint32_t nb)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceRevisitedRadix.h:39: warning: The following parameters of RadixSort::Sort(const float *input2, uint32_t nb) are not documented:
+  parameter 'input2'
+warning: Call graph for 'StarSystem::Draw' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::GetComputerData' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::isUnit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Position' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::rSize' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Unit::Target' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'UnitCollection::createIterator' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'UnitContainer::GetUnit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'UnitContainer::GetUnit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Universe::AccessCamera' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Universe::AccessCockpit' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Universe::activeStarSystem' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Universe::isPlayerStarship' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'VegaConfig::getVariable' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vid_file.h:122: warning: Found unknown command `\Returns'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vid_file.h:122: warning: Found unknown command `\Returns'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vid_file.h:122: warning: Found unknown command `\Throws'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/gfx/vid_file.h:123: warning: Found unknown command `\Throws'
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'Window::findControlById' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'WindowController::window' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/renderers/OpenAL/OpenALRenderer.h:66: warning: argument 'straeming' of command @param is not found in the argument list of Audio::OpenALRenderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/renderers/OpenAL/OpenALRenderer.h:67: warning: The following parameters of Audio::OpenALRenderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false) are not documented:
+  parameter 'streaming'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/codecs/Codec.h:109: warning: The following parameters of Audio::Codec::canHandle(const std::string &path, bool canOpen, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile)=0 are not documented:
+  parameter 'type'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/CodecRegistry.h:83: warning: The following parameters of Audio::CodecRegistry::add(Codec *codec, int priority=0) are not documented:
+  parameter 'priority'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/renderers/OpenAL/OpenALRenderer.h:66: warning: argument 'straeming' of command @param is not found in the argument list of Audio::OpenALRenderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/renderers/OpenAL/OpenALRenderer.h:67: warning: The following parameters of Audio::OpenALRenderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false) are not documented:
+  parameter 'streaming'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/Renderer.h:77: warning: argument 'straeming' of command @param is not found in the argument list of Audio::Renderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false)=0
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/Renderer.h:89: warning: The following parameters of Audio::Renderer::getSound(const std::string &name, VSFileSystem::VSFileType type=VSFileSystem::UnknownFile, bool streaming=false)=0 are not documented:
+  parameter 'streaming'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h:119: warning: argument 'detach' of command @param is not found in the argument list of Audio::SourceListener::onPostPlay(Source &source, bool stop)=0
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h:125: warning: The following parameters of Audio::SourceListener::onPostPlay(Source &source, bool stop)=0 are not documented:
+  parameter 'stop'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h:111: warning: argument 'detach' of command @param is not found in the argument list of Audio::SourceListener::onPrePlay(Source &source, bool stop)=0
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h:117: warning: The following parameters of Audio::SourceListener::onPrePlay(Source &source, bool stop)=0 are not documented:
+  parameter 'stop'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/base_util.cpp:118: warning: argument 'detach' of command @param is not found in the argument list of BaseUtil::VideoAudioStreamListener::onPostPlay(Source &source, bool stop) inherited from member onPostPlay at line 119 in file /home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/base_util.cpp:118: warning: The following parameters of BaseUtil::VideoAudioStreamListener::onPostPlay(Source &source, bool stop) are not documented:
+  parameter 'stop'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/base_util.cpp:115: warning: argument 'detach' of command @param is not found in the argument list of BaseUtil::VideoAudioStreamListener::onPrePlay(Source &source, bool stop) inherited from member onPrePlay at line 111 in file /home/enon/build/Vega-Strike-Engine-Source/engine/src/audio/SourceListener.h
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/base_util.cpp:115: warning: The following parameters of BaseUtil::VideoAudioStreamListener::onPrePlay(Source &source, bool stop) are not documented:
+  parameter 'stop'
+warning: Caller graph for 'Occlusion::end' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'nb_prims' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'global_box' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeCollider.cpp:933: warning: argument 'leaf' of command @param is not found in the argument list of Opcode::AABBTreeCollider::_CollideBoxTri(const AABBQuantizedNoLeafNode *b)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeCollider.cpp:894: warning: argument 'leaf' of command @param is not found in the argument list of Opcode::AABBTreeCollider::_CollideTriBox(const AABBQuantizedNoLeafNode *b)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'nb_prims' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'global_box' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'nb_prims' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'global_box' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:113: warning: argument 'nb_prims' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::GetSplittingValue(const uint32_t *, uint32_t, const AABB &global_box, uint32_t axis) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'primitives' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_TreeBuilders.h:130: warning: argument 'global_box' of command @param is not found in the argument list of Opcode::AABBTreeBuilder::ValidateSubdivision(const uint32_t *, uint32_t nb_prims, const AABB &)
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_HybridModel.h:70: warning: argument 'create' of command @param is not found in the argument list of Opcode::HybridModel::override(BaseModel) const &
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:103: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBCollisionNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:104: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:105: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBQuantizedNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:106: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBQuantizedNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:107: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBCollisionNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:108: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:109: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBQuantizedNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:110: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBQuantizedNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceIndexedTriangle.cpp:261: warning: argument 'source' of command @param is not found in the argument list of Opcode::IndexedTriangle::ComputeOcclusionPotential(const Point *verts, const Point &view) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceIndexedTriangle.h:60: warning: The following parameters of Opcode::IndexedTriangle::ComputeOcclusionPotential(const Point *verts, const Point &view) const are not documented:
+  parameter 'view'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceIndexedTriangle.cpp:172: warning: argument 'normal' of command @param is not found in the argument list of Opcode::IndexedTriangle::RandomPoint(const Point *verts, Point &random) const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceIndexedTriangle.h:57: warning: The following parameters of Opcode::IndexedTriangle::RandomPoint(const Point *verts, Point &random) const are not documented:
+  parameter 'random'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_Model.h:39: warning: argument 'create' of command @param is not found in the argument list of Opcode::Model::override(BaseModel) const &
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:103: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBCollisionNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:104: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:105: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBQuantizedNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:106: warning: The following parameters of Opcode::PlanesCollider::_Collide(const AABBQuantizedNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:107: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBCollisionNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:108: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:109: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBQuantizedNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/OPC_PlanesCollider.h:110: warning: The following parameters of Opcode::PlanesCollider::_CollideNoPrimitiveTest(const AABBQuantizedNoLeafNode *node, uint32_t clip_mask) are not documented:
+  parameter 'clip_mask'
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/collide2/Ice/IceTriangle.cpp:215: warning: argument 'm' of command @param is not found in the argument list of Opcode::Triangle::MinEdgeLength() const
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/cmd/ai/flybywire.h:135: warning: explicit link request to 'define' could not be resolved
+warning: Caller graph for 'seedrandom.rand' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Call graph for 'UniverseUtil::musicStop' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'VSFileSystem::VSFile::Close' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'VSFileSystem::VSFile::OpenReadOnly' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'vsrandom.randrange' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:413: warning: Unsupported xml/html tag <name1> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:413: warning: Unsupported xml/html tag <name2> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:413: warning: Unsupported xml/html tag <name3> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:418: warning: Unsupported xml/html tag <name1> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:418: warning: Unsupported xml/html tag <name2> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:418: warning: Unsupported xml/html tag <name3> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:208: warning: Unsupported xml/html tag <name1> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:208: warning: Unsupported xml/html tag <name2> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:208: warning: Unsupported xml/html tag <name3> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:218: warning: Unsupported xml/html tag <name1> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:218: warning: Unsupported xml/html tag <name2> found
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/XMLDocument.h:218: warning: Unsupported xml/html tag <name3> found
+warning: Caller graph for 'XMLSupport::parse_bool' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::parse_bool' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::parse_float' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::parse_float' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::parse_int' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::parse_int' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Caller graph for 'XMLSupport::tostring' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+/home/enon/build/Vega-Strike-Engine-Source/engine/src/posh.h:1102: warning: unable to resolve reference to `POSH_NO_FLOAT' for \ref command
+error: Could not read image `/home/enon/build/Vega-Strike-Engine-Source/doc/doxygen/html/d4/d80/classAudio_1_1Exception_adb5190414d675e725143ad03c35dc585_icgraph.png' generated by dot!
+error: Could not read image `/home/enon/build/Vega-Strike-Engine-Source/doc/doxygen/html/d4/d80/classAudio_1_1Exception_adb5190414d675e725143ad03c35dc585_icgraph.png' generated by dot!
